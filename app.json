@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "AFPPGMC Mobile",
+    "slug": "Auth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assets": "./assets",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aaronlasala.Auth"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3b9eefea-0091-4412-92c0-3307cff44a62"
+      } 
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3b9eefea-0091-4412-92c0-3307cff44a62"
+    }
+  }
+}
